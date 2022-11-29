@@ -45,7 +45,7 @@ img{
 .btn{
     padding: 10px 25px;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
     font-weight: 600;
 }
@@ -70,6 +70,15 @@ img{
 .button-secondary:hover{
     background-color: #0085fe;
     color: #fff;
+}
+
+.button-ordinary{
+    background-color: #E7F0FD;
+    color: #3E93E2;
+}
+.button-ordinary:hover{
+    color: #E7F0FD;
+    background-color: #3E93E2;
 }
 a{
     text-decoration: none;
@@ -163,3 +172,29 @@ a{
     width: 70%;
     
 }
+
+/* Brands Section Styles End */
+
+/* Ticket Section Styles Start */
+.ticket-section{
+    padding: 50px 0;
+
+}
+.ticket-section .ticket-img{
+    width: 50%;
+}
+.ticket-section .ticket-text{
+    margin-left: 50px;
+    width: 50%;
+}
+.ticket-section h2{
+    font-size: 40px;
+    color: #011F4E;
+}
+.ticket-section p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #788595;
+}
+
+
