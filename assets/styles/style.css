@@ -38,6 +38,10 @@ img{
 .off-white-bg{
     background-color: #eff7ff;
 }
+.white-bg{
+    background-color: #fff;
+
+}
 .btn{
     padding: 10px 25px;
     border-radius: 50px;
@@ -99,6 +103,8 @@ a{
     color: #0085FE;
 }
 
+
+/* Hero Section Styles End */
 .hero-area{
     padding: 50px 0;
 }
@@ -121,6 +127,7 @@ a{
 }
 .hero-text p{
     line-height: 30px;
+    color: #788595;
     
 }
 .hero-text p:last-child{
@@ -129,4 +136,30 @@ a{
 
 .hero-img{
     width: 50%;
+}
+/* Hero Section Styles End */
+
+
+/* Brands Section Styles Start */ 
+
+.brands-section{
+    padding: 50px 0;
+    
+}
+.brands-section p{
+    color: #788595;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    
+}
+.brands-section > .container > .flex{
+    justify-content: space-between;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    
 }
