@@ -13,7 +13,13 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Merriweather', serif;
 
 }
+.primary-color{
+    color: #001E4F;
+}
+.primary-bg{
+    background-color: #001E4F;
 
+}
 
 img{
     max-width: 100%;
@@ -33,6 +39,7 @@ img{
 }
 .align-center{
     align-items: center;
+    text-align: center;
 }
 
 .off-white-bg{
@@ -195,6 +202,49 @@ a{
     font-size: 18px;
     line-height: 25px;
     color: #788595;
+}
+
+
+/* Features Section */
+.features-section{
+    padding: 80px 0;
+
+}
+.features-section .email{
+    max-width: 50%;
+    /* margin-top: 40px; */
+}
+
+.features-section h1{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+
+}
+.features-section h2{
+    text-align: left;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.features-section p{
+    color: #4F678C;
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.1px;
+}
+.features-section .icons{
+    margin-top: 50px;
+}
+.features-section .icons img{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color: #1A3562;
+    padding: 15px;
+    border-radius: 50%;
 }
 
 
