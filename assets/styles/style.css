@@ -307,16 +307,23 @@ a{
 .cta .cta-image{
     width: 100%;
 }
+.cta .cta-workload-image{
+    width: 100%;
+}
 .cta .cta-content{
     margin-left: 50px;
 }
-.cta .cta-content h1{
+.cta .cta-workload{
+    margin-right: 50px;
+    width: 100%;
+}
+.cta h1{
     font-size: 36px;
     color: #001C4E;
     font-weight: 800;
     
 }
-.cta .cta-content p{
+.cta p{
     color: #7E8695;
 }
 
