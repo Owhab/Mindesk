@@ -295,4 +295,29 @@ a{
     max-width: 100%;
 }
 
+/* CTA Section  */
+
+.cta .container{
+    padding: 100px 0;
+}
+.cta .flex{
+    align-items: center;
+}
+
+.cta .cta-image{
+    width: 100%;
+}
+.cta .cta-content{
+    margin-left: 50px;
+}
+.cta .cta-content h1{
+    font-size: 36px;
+    color: #001C4E;
+    font-weight: 800;
+    
+}
+.cta .cta-content p{
+    color: #7E8695;
+}
+
 
