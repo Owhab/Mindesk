@@ -389,3 +389,47 @@ a{
 
 
 
+/* Customer Stories Styles Start */
+
+
+
+.stories{
+
+}
+.stories .story-card{
+    margin: 10px;
+}
+.stories .story-card>h2{
+    margin-top: 20px;
+    color: #051F46;
+}
+.stories .story-card img{
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+.story-card-image{
+    position: relative;
+}
+.stories .percentage{
+    background-color: #00D6BB;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    
+}
+.percentage h1{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
